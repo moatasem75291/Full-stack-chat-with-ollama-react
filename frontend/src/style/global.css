@@ -1,0 +1,17 @@
+:root {
+  --bg-primary: #1e1e2e;         /* Darker background */
+  --bg-secondary: #2a2a3c;       /* Slightly lighter background */
+  --text-primary: #e2e2e4;       /* Off-white text */
+  --text-secondary: #9ca0b0;     /* Muted text */
+  --accent-color: #567dbc;       /* Bright blue accent */
+  --human-msg-bg: #313244;       /* Dark off-white for human messages */
+  --ai-msg-bg: #1e606e;         /* Teal for AI messages */
+  --error-color: #f38ba8;       /* Soft red for errors */
+}
+  
+  body {
+    margin: 0;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, sans-serif;
+  }

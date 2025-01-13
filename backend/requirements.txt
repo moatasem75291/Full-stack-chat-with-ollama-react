@@ -1,0 +1,6 @@
+fastapi
+pydantic
+uvicorn
+pytest
+llama-index-llms-ollama
+python-dotenv
